@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+}
+nav {
+    background-color:  rgb(51, 102, 204);
+    color: darkblue;
+    padding: 10px;
+    color: aliceblue;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0px 0px 5px black;
+}
+
+nav div {
+    display: inline;
+    border: 1px solid aliceblue;
+    padding: 2px 3px 2px 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover {
+    color: lightsteelblue;
+    transition: width 2s;
+}
+
+.headmain  {
+    margin-top: 2.4rem;
+    text-align: center;
+    padding: 15px;
+    background: rgb(25, 51, 103);
+    background: linear-gradient(to top, rgb(25, 51, 103),rgb(0, 153, 204));
+}
+.headsub  {
+    margin-top: 2.4rem;
+    padding: 15px;
+    background: rgb(25, 51, 103);
+    background: linear-gradient(to top, rgb(25, 51, 103),rgb(0, 153, 204));
+}
+
+.fasub {
+    float: left;
+    padding: 20px;
+}
+
+div .fa {
+    color: aliceblue;
+}
+
+header h1 {
+    color: aliceblue;
+}
+
+header p {
+    color: aliceblue;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+    border-radius:100px;
+}
+
+article {
+    padding: 30px; 
+    text-align: center;
+}
+
+.message {
+    background: rgb(235, 240, 250);
+}
+
+section {
+    width: 20rem;
+    border: 1.5px solid #2e5cb8;
+    border-radius: 15px;
+    display: inline-block;
+    height: 17rem;
+    padding: 15px;
+    margin: 15px;
+}
+
+section h2 {
+    text-align: center;
+    color: rgb(51, 102, 204);
+}
+
+section p {
+    font-size: 13px;
+    text-align:  center;
+    color: dimgray;
+}
+
+article h3{
+    color: rgb(51, 102, 204);
+}
+
+article .fa-github {
+    color: black;
+    padding: 15px;
+}
+
+article .fa-facebook-square {
+    color: rgb(91, 132, 215);
+    padding: 15px;
+}
+
+article .fa-linkedin-square {
+    color: rgb(0, 172, 230);
+    padding: 15px;
+}
+
+article .fa-twitter-square {
+    color: rgb(0, 204, 204);
+    padding: 15px;
+}
+
+i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa {
+    color: rgb(70, 117, 210);
+}
+
+.footermain {
+    padding-top: 25px;
+    text-align: center;
+    background-color: rgb(25, 51, 103);
+    height: 5rem;
+}
+
+.footersub {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(25, 51, 103);
+    height: auto;
+}
+
+.footersub .fa-github {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.footersub .fa-facebook-square {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.footersub .fa-linkedin-square {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.footersub .fa-twitter-square {
+    color: aliceblue;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: aliceblue;
+  }
