@@ -1,47 +1,55 @@
 body {
     margin: 0;
 }
+
 nav {
     background-color:  rgb(51, 102, 204);
-    color: darkblue;
-    padding: 10px;
     color: aliceblue;
     position: fixed;
-    top: 0px;
     width: 100%;
     box-shadow: 0px 0px 5px black;
+    padding: 8px;
+    margin-top: -13px;
 }
 
-nav div {
-    display: inline;
+nav li:nth-child(1) {
+    float: left;
     border: 1px solid aliceblue;
-    padding: 2px 3px 2px 3px;
+    padding: 5px 5px 5px 5px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     color: aliceblue;
+}
+
+nav li:nth-child(n+2) {
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    padding: 5px 15px 5px 15px;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+}
+
+nav li:hover {
+    background-color: cornflowerblue;
+    color: darkblue;
 }
 
 nav a {
     text-decoration: none;
     color: aliceblue;
-    font-family: 'Open Sans', sans-serif;
-}
-
-nav a:hover {
-    color: lightsteelblue;
-    transition: width 2s;
 }
 
 .headmain  {
-    margin-top: 2.4rem;
     text-align: center;
-    padding: 15px;
+    padding: 70px 15px 15px 15px;
     background: rgb(25, 51, 103);
     background: linear-gradient(to top, rgb(25, 51, 103),rgb(0, 153, 204));
 }
+
 .headsub  {
-    margin-top: 2.4rem;
-    padding: 15px;
+    padding: 55px 15px 15px 35px;    
     background: rgb(25, 51, 103);
     background: linear-gradient(to top, rgb(25, 51, 103),rgb(0, 153, 204));
 }
@@ -72,7 +80,7 @@ h1, h2, h3 {
 }
 
 header img {
-    border-radius:100px;
+    border-radius: 100px;
 }
 
 article {
@@ -84,7 +92,25 @@ article {
     background: rgb(235, 240, 250);
 }
 
-section {
+#about {
+    width: 20rem;
+    border: 1.5px solid #2e5cb8;
+    border-radius: 15px;
+    display: inline-block;
+    height: 17rem;
+    padding: 15px;
+    margin: 15px;
+}
+#education {
+    width: 20rem;
+    border: 1.5px solid #2e5cb8;
+    border-radius: 15px;
+    display: inline-block;
+    height: 17rem;
+    padding: 15px;
+    margin: 15px;
+}
+#experience {
     width: 20rem;
     border: 1.5px solid #2e5cb8;
     border-radius: 15px;
@@ -94,19 +120,66 @@ section {
     margin: 15px;
 }
 
+section {
+    padding-left: 50px;
+}
+
 section h2 {
     text-align: center;
     color: rgb(51, 102, 204);
 }
 
-section p {
+section {
     font-size: 13px;
-    text-align:  center;
+    color: dimgray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section li {
+    font-size: 13px;
     color: dimgray;
 }
 
 article h3{
     color: rgb(51, 102, 204);
+}
+
+.bio {
+    text-align:left;
+}
+.bio h3 {
+    border-bottom: 1px solid;
+    
+}
+.interest {
+    text-align: left;
+}
+.interest h3 {
+    border-bottom: 1px solid;
+}
+
+.family {
+    text-align:left;
+    font
+}
+.family h3 {
+    border-bottom: 1px solid;
+}
+article .fa-users {
+    margin: 0px 20px;
+    color: darkkhaki;
+}
+
+article .fa-gamepad {
+    float: left;
+    margin: 0px 20px;
+    color: darkmagenta;
+}
+
+article .fa-camera-retro {
+    float: right;
+    margin: 0px 20px;
+    color: darkslateblue
 }
 
 article .fa-github {
