@@ -140,7 +140,7 @@ section li {
     color: dimgray;
 }
 
-article h3{
+article h3 {
     color: rgb(51, 102, 204);
 }
 
@@ -154,18 +154,39 @@ article h3{
 .interest {
     text-align: left;
 }
+
 .interest h3 {
     border-bottom: 1px solid;
 }
 
 .family {
-    text-align:left;
-    font
+    text-align: left;
 }
+
 .family h3 {
     border-bottom: 1px solid;
 }
+
+.experience {
+    text-align: left;
+}
+
+.experience h3 {
+    border-bottom: 1px solid;
+}
+
+.experience span {
+    float:left;
+    text-align: center;
+    width: 100px
+}
+
+.experience ul {
+    margin-left: 8rem;
+}
+
 article .fa-users {
+    float: left;
     margin: 0px 20px;
     color: darkkhaki;
 }
@@ -174,6 +195,12 @@ article .fa-gamepad {
     float: left;
     margin: 0px 20px;
     color: darkmagenta;
+}
+
+article .fa-globe {
+    float: left;
+    margin: 0px 20px;
+    color: green;
 }
 
 article .fa-camera-retro {
@@ -200,12 +227,6 @@ article .fa-linkedin-square {
 article .fa-twitter-square {
     color: rgb(0, 204, 204);
     padding: 15px;
-}
-
-i {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .fa {
@@ -254,4 +275,4 @@ footer a {
 footer p {
     font-size: 0.9em;
     color: aliceblue;
-  }
+}
